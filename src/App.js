@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Skill from "./components/Skill/Skill";
+import Project from "./components/Project/Project";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div onTouchMove={() => setOpen(false)}>
+     <Navbar open={open} setOpen={setOpen} />
+     <Home />
+     <About />
+     <Skill />
+     <Project />
+     <Contact />
+     <Footer />
     </div>
   );
 }
