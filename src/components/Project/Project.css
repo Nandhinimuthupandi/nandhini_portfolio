@@ -32,7 +32,7 @@
   }
   .project-card > img {
     width: 100% !important;
-    height: auto;
+    height: 170px;
   }
   .project-card > div {
     background-color: white;

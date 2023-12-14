@@ -26,7 +26,7 @@ function ModalView({ handleClose, open, data }) {
         left: "50%",
         transform: "translate(-50%, -50%)",
         color: "red",
-        backgroundColor: "#DFFFDC",
+        backgroundColor: "#cff4fc",
         width: width > 730 ? "70%" : "95%",
         margin: "0 auto",
         borderRadius: "15px",

@@ -5,6 +5,9 @@ import "./Project.css";
 import markdownImg from "../../asset/markdownImg.png";
 import brewImg from "../../asset/brewImg.png";
 import goImg from "../../asset/goImg.png";
+import cookimg1 from '../../asset/cookimg1.jpg'
+import ecommerce from '../../asset/ecom.png'
+//import todo from '../../asset/todo.png'
 
 function Project() {
     const [value, setValue] = useState("all");
@@ -56,7 +59,7 @@ function Project() {
           },
           {
             name: "JWT",
-            link: "./asset/jwt.svg",
+            link: "/static/media/jwt.aceee2f7e220f487a8c6.png",
           },
           
         ],
@@ -138,6 +141,160 @@ function Project() {
           },
         ],
       },
+
+
+      {
+        key: ["react", "express", "all", "restApi", "mern","node"],
+        img: cookimg1,
+        title: "recipe book app",
+        githubFrontEnd:
+          "https://github.com/Nandhinimuthupandi/Recipe_Book-frontend",
+        githubBackEnd:
+          "https://github.com/Nandhinimuthupandi/Recipe_Book-backend",
+        sourceCode: "https://myrecipebookapp.netlify.app",
+        shortNote:
+        "I built a recipe book app where you can find recipes.",
+        longNote: [
+          "The frontend is built using **React** with **Bootstrap** for styling. The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
+           "I have add **login/logout** feature. ",
+          "In my application I have my **home page**, **registration** and **login pages**. On successful login the user can **create their own recipes on create recipe page** ",
+          "On clicking **save** button the **recipe** will be created.",
+          "It will be stored in the **Home page** where the user can **save** their favorite recipes as well.",
+          "The saved recipes will be shown in **user's profile** as well"
+  
+        ],
+        skills: [
+          {
+            name: "React",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          },
+          {
+            name: "Node",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          },
+          {
+            name: "Express",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          },
+          {
+            name: "Mongo DB",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+          },
+  
+          {
+            name: "Bootstrap",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+          },
+          
+          {
+            name: "JWT",
+            link: "/static/media/jwt.aceee2f7e220f487a8c6.png",
+          },
+          
+        ],
+      },
+
+      {
+        key: ["react", "express", "all", "restApi", "mern","node"],
+        img: ecommerce,
+        title: "VJ Shopping App",
+        githubFrontEnd:
+          "https://github.com/Nandhinimuthupandi/ecommerce-frontend",
+        githubBackEnd:
+          "https://github.com/Nandhinimuthupandi/ecommerce-backend",
+        sourceCode: "https://vjshoppingapp.netlify.app/",
+        shortNote:
+        "I built an ecommerce application where users can find lot of items and buy it.",
+        longNote: [
+          "The frontend is built using **React** with **Bootstrap**and **ant design** for styling. The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
+           "I have add **login/logout** feature. ",
+          "In my application I have my **home page**, **registration** and **login pages**. On successful login the user can ** view all products and can add it to cart to make payments** ",
+          "Only admins can **create,update and delete** a product or category.",
+          "A **search filter** and **filters based on price and category** is implemented."
+  
+        ],
+        skills: [
+          {
+            name: "React",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          },
+          {
+            name: "Node",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          },
+          {
+            name: "Express",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          },
+          {
+            name: "Mongo DB",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+          },
+  
+          {
+            name: "Bootstrap",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+          },
+          
+          {
+            name: "JWT",
+            link: "/static/media/jwt.aceee2f7e220f487a8c6.png",
+          },
+          
+        ],
+      },
+
+      // {
+      //   key: ["react", "express", "all", "restApi", "mern","node"],
+      //   img: todo,
+      //   title: "Todo App",
+      //   githubFrontEnd:
+      //     "https://github.com/Nandhinimuthupandi/ecommerce-frontend",
+      //   githubBackEnd:
+      //     "https://github.com/Nandhinimuthupandi/ecommerce-backend",
+      //   sourceCode: "https://vjshoppingapp.netlify.app/",
+      //   shortNote:
+      //   "I built an todo application where users can create their own todo list and can have a check on it.",
+      //   longNote: [
+      //     "The frontend is built using **React** with **Bootstrap**and **tailwind css** for styling. The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
+      //      "I have add **login/logout** feature. ",
+      //     "In my application I have my **home page**, **registration** and **login pages**. On successful login the user can **view all todos and can also create todo** ",
+      //     "They can**update todo status to completed** on completing it",
+      //     "There is also a **delete** option to delete the unwanted todos",
+      //     "A **filter** is implemented based on the completion of the todos."
+  
+      //   ],
+      //   skills: [
+      //     {
+      //       name: "React",
+      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      //     },
+      //     {
+      //       name: "Node",
+      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      //     },
+      //     {
+      //       name: "Express",
+      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      //     },
+      //     {
+      //       name: "Mongo DB",
+      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+      //     },
+  
+      //     {
+      //       name: "Bootstrap",
+      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      //     },
+          
+      //     {
+      //       name: "JWT",
+      //       link: "/static/media/jwt.aceee2f7e220f487a8c6.png",
+      //     },
+          
+      //   ],
+      // },
+
     ];
   
     let datas = data.filter((item) => item.key.some((items) => items === value));

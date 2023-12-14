@@ -7,7 +7,7 @@ import CallIcon from '@material-ui/icons/Call';
 
 function Footer() {
     return (
-      <footer class="footer">
+      <footer className="footer">
         <div>
           <span className='footer-icon' onClick={() => window.open("https://github.com/Nandhinimuthupandi", "_blank")}> <GitHubIcon fontSize='small' /> </span>
           <span className='footer-icon' onClick={() => window.open("https://www.linkedin.com/in/nandhini-m-070610260/", "_blank")}> <LinkedInIcon fontSize='small' /></span>
@@ -15,7 +15,7 @@ function Footer() {
           <span className='footer-icon' onClick={() => window.open("tel://+919940963271", "_blank")}> <CallIcon fontSize='small' /></span>
         </div>
         <div>
-          <p class="m-1">Copyright &copy; 2023 All rights reserved | Nandhini</p>
+          <p className="m-1">Copyright &copy; 2023 All rights reserved | Nandhini</p>
         </div>
       </footer>
     )

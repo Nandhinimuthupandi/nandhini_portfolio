@@ -74,7 +74,7 @@
     font-weight: 500;
   }
   .contact-form ::placeholder {
-    color: red;
+    color: #fff;
     opacity: 1; 
   }
   .contact-icon :hover {

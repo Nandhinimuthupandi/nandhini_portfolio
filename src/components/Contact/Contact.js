@@ -140,8 +140,8 @@ function Contact() {
                       <button type="submit">
                         {loading ? (
                           <img
-                           // src="./asset/load.svg"
-                           // alt=""
+                          //  src="./asset/load.svg"
+                          //  alt=""
                             style={{
                               color: "green",
                               width: "1rem",
