@@ -8,6 +8,7 @@ import goImg from "../../asset/goImg.png";
 import cookimg1 from '../../asset/cookimg1.jpg'
 import ecommerce from '../../asset/ecom.png'
 //import todo from '../../asset/todo.png'
+import blog from '../../asset/blog.png'
 
 function Project() {
     const [value, setValue] = useState("all");
@@ -244,56 +245,55 @@ function Project() {
         ],
       },
 
-      // {
-      //   key: ["react", "express", "all", "restApi", "mern","node"],
-      //   img: todo,
-      //   title: "Todo App",
-      //   githubFrontEnd:
-      //     "https://github.com/Nandhinimuthupandi/ecommerce-frontend",
-      //   githubBackEnd:
-      //     "https://github.com/Nandhinimuthupandi/ecommerce-backend",
-      //   sourceCode: "https://vjshoppingapp.netlify.app/",
-      //   shortNote:
-      //   "I built an todo application where users can create their own todo list and can have a check on it.",
-      //   longNote: [
-      //     "The frontend is built using **React** with **Bootstrap**and **tailwind css** for styling. The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
-      //      "I have add **login/logout** feature. ",
-      //     "In my application I have my **home page**, **registration** and **login pages**. On successful login the user can **view all todos and can also create todo** ",
-      //     "They can**update todo status to completed** on completing it",
-      //     "There is also a **delete** option to delete the unwanted todos",
-      //     "A **filter** is implemented based on the completion of the todos."
-  
-      //   ],
-      //   skills: [
-      //     {
-      //       name: "React",
-      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-      //     },
-      //     {
-      //       name: "Node",
-      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-      //     },
-      //     {
-      //       name: "Express",
-      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-      //     },
-      //     {
-      //       name: "Mongo DB",
-      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
-      //     },
-  
-      //     {
-      //       name: "Bootstrap",
-      //       link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
-      //     },
+      {
+        key: ["react", "express", "all", "restApi", "mern","node"],
+        img: blog,
+        title: "Blog App",
+        githubFrontEnd:
+          "https://github.com/Nandhinimuthupandi/blog-app-frontend",
+        githubBackEnd:
+          "https://github.com/Nandhinimuthupandi/blog-app-backend",
+        sourceCode: "https://lets-write-blog.netlify.app/",
+        shortNote:
+        "I built an blog application where users can create their own blogs and can keep a check on it.",
+        longNote: [
+          "The frontend is built using **React** with **Bootstrap**and **tailwind css** for styling. The backend is build with **Node.js** , **Express.js** and used **MongoDB** as database.",
+           "I have add **login/logout** feature. ",
+          "In my application I have my **home page**, **registration** and **login pages**. On successful login the user can **view all blogs and can also create their own blogs** ",
+          "There is also a **delete** option to delete the unwanted blogs"
           
-      //     {
-      //       name: "JWT",
-      //       link: "/static/media/jwt.aceee2f7e220f487a8c6.png",
-      //     },
+  
+        ],
+        skills: [
+          {
+            name: "React",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+          },
+          {
+            name: "Node",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+          },
+          {
+            name: "Express",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          },
+          {
+            name: "Mongo DB",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+          },
+  
+          {
+            name: "Bootstrap",
+            link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+          },
           
-      //   ],
-      // },
+          {
+            name: "JWT",
+            link: "/static/media/jwt.aceee2f7e220f487a8c6.png",
+          },
+          
+        ],
+      },
 
     ];
   
